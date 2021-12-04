@@ -1,4 +1,4 @@
 pipeline,resource,pattern,value
 local-authority-district,,WKT,geometry
-local-authority-district,,lad19cd,geography
+local-authority-district,,lad19cd,local-authority-district
 local-authority-district,,lad19nm,name
