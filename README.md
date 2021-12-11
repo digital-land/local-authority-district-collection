@@ -1,10 +1,9 @@
-# Local Authority collection
+# local-authority-district collection
 
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/local-authority-district/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/local-authority-district/blob/main/LICENSE)
+[![Run pipeline](https://github.com/digital-land/local-authority-district-collection/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/local-authority-district-collection/actions/workflows/run.yml)
 
-A collection of Local Authorities collected from ONS.
-
-The national dataset is in a format consistent with other Digital Land datasets as defined by the [geography schema](https://digital-land.github.io/specification/schema/geography/).
+The data and pipeline to build the [local-authority-district dataset](https://www.digital-land.info/dataset/local-authority-district).
 
 # Collection
 
@@ -17,17 +16,13 @@ The national dataset is in a format consistent with other Digital Land datasets 
 
 # Updating the collection
 
-We recommend working in [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) before installing the python [requirements](requirements.txt), [makerules](https://github.com/digital-land/makerules) and other dependencies:
+We recommend working in [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) before installing the python [requirements](requirements.txt), [makerules](https://github.com/digital-land/makerules) and other dependencies. Requires Make v4.0 or above.
 
     $ make makerules
     $ make init
     $ make collect
 
-# Nightly collection
-
-The collection is [updated nightly](https://github.com/digital-land/local-authority-district-collection-new/actions) by the [GitHub Action](.github/workflows/run.yml).
-
-# Building the national dataset
+# Building the datasets
 
 The collected files can then be converted into a national dataset:
 
