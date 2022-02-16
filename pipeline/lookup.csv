@@ -1,4 +1,4 @@
-pipeline,resource,organisation,value,entity
+prefix,resource,organisation,reference,entity
 local-authority-district,,government-organisation:D303,E06000001,8600000
 local-authority-district,,government-organisation:D303,E06000002,8600001
 local-authority-district,,government-organisation:D303,E06000003,8600002

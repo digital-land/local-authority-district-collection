@@ -1,2 +1,2 @@
-pipeline,resource,field,pattern
+dataset,resource,field,pattern
 local-authority-district,,local-authority-district,"^[WNS]"
