@@ -1,2 +1,2 @@
 dataset,resource,field,pattern
-local-authority-district,,local-authority-district,"^[WNS]"
+local-authority-district,,reference,"^[^E0]"
